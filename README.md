@@ -170,7 +170,7 @@ This is the backend for the Money Lending Application. It provides APIs for user
 
 2. The server will start on `http://localhost:8000`.
 
-#### Using Docker
+#### Using Docker:
 
 1. Build the Docker image:
     ```bash
