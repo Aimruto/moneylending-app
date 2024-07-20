@@ -64,7 +64,7 @@ This is the backend for the Money Lending Application. It provides APIs for user
 
 ### User Routes
 
-- `GET /api/users/:id`
+- `GET /api/user/:id`
 
     - Description: Fetch user data
     - Protected Route: Requires JWT
