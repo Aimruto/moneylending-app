@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 
+//define the users schema
 const userSchema= new mongoose.Schema({
     phoneNumber:{
         type: String,
@@ -9,6 +10,7 @@ const userSchema= new mongoose.Schema({
         type: String,
         required: true,
         unique:true,
+        match: [/\S+@\S+\.\S+/, 'Email is not valid'], // to check email format is correct or not
     },
     name:{
         type:String,
@@ -41,6 +43,7 @@ const userSchema= new mongoose.Schema({
     },
 },{timestamps:true});
 
+//create a model using users schema
 const User=mongoose.model("User",userSchema);
 
 export default User;

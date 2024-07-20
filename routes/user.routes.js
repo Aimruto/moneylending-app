@@ -4,6 +4,7 @@ import protectRoute from "../middleware/protectRoute.js";
 
 const router = express.Router();
 
+//route for user info
 router.get('/:id',protectRoute,UserData);
 
 export default router;

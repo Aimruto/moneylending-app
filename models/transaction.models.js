@@ -1,6 +1,8 @@
-import mongoose from "mongoose";
+import mongoose from "mongoose";  //to interact with MongoDB
 
+//schema for transactions
 const transactionSchema = new mongoose.Schema({
+    //user reference who made the transaction
     userId:{
         type:mongoose.Schema.Types.ObjectId,
         ref: "User"
@@ -30,7 +32,9 @@ const transactionSchema = new mongoose.Schema({
         type:Date,
         default:Date.now
     }
-},{ timestamps:true});
+},{ timestamps:true}); //adds createdAt,updatedAt fields automatically
+
+//create a model using transaction schema
 const Transaction= mongoose.model("Transaction",transactionSchema);
 
 export default Transaction;
