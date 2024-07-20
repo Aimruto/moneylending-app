@@ -100,19 +100,19 @@ This is the backend for the Money Lending Application. It provides APIs for user
 
 1. **Signup Endpoint**
    - Screenshot showing the request configuration for user signup.
-   - ![Signup Endpoint](./postman-screenshots/signup.png)
+     ![Signup Endpoint](./postman-screenshots/signup.png)
 
 2. **Login Endpoint**
    - Screenshot showing the request configuration for user login.
-   - ![Login Endpoint](./postman-screenshots/login.png)
+     ![Login Endpoint](./postman-screenshots/login.png)
 
 3. **User Data Endpoint**
    - Screenshot showing the request configuration for fetching user data.
-   - ![User Data Endpoint](./postman-screenshots/user.png)
+     ![User Data Endpoint](./postman-screenshots/user.png)
 
 4. **Borrow Money Endpoint**
    - Screenshot showing the request configuration for borrowing money.
-   - ![Borrow Money Endpoint](./postman-screenshots/borrow.png)
+     ![Borrow Money Endpoint](./postman-screenshots/borrow.png)
 
 **MongoDB Screenshots**
 1. **users collection**
