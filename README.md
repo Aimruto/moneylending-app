@@ -119,7 +119,7 @@ This is the backend for the Money Lending Application. It provides APIs for user
 
    ![MongoDB Connection Screenshot](./postman-screenshots/users_db.png)
 
-2. **users collection**
+2. **transactions collection**
 
    ![MongoDB Schema Screenshot](./postman-screenshots/transactions_db.png)
    
